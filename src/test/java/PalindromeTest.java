@@ -38,6 +38,6 @@ public class PalindromeTest {
         assertFalse(sut.isPalindrome("Country"));
         assertFalse(sut.isPalindrome("Top . post!"));
         assertFalse(sut.isPalindrome("Wonderful-fool"));
-        assertFalse(sut.isPalindrome("“Wild imagination!"));
+        assertFalse(sut.isPalindrome("Wild imagination!"));
     }
 }
